@@ -1,7 +1,12 @@
 # reading-notes
 Code 301 - Intermediate Software Development
-<a href="#class01">class01</a>
-<a href="#class02">class02</a>
+<a href="#thingstoremember">Things to Remember</a><br>
+<a href="#class01">class 01</a><br>
+<a href="#class02">class 02</a><br>
+<a href="#class03">class 03</a><br>
+<h2 id="class03">Class 03</h2><br><br>
+<h2 id="thingstoremember">Things to Remember</h2>
+<br>
 <h2 id="class01">Class 01</h2>
 Component-Based Architecture
 
@@ -45,7 +50,7 @@ State is like a component's personal diary. Here are things you can jot down in 
 Info from forms: like what you type, which boxes you tick. Whether to show or hide something: like a popup or dropdown menu. Data from the internet: like a list of movies or songs. User choices: like which tab they've clicked on or the volume level of a video.
 
 
-<h2>Class 03</h2>
+<h2 id="class03">Class 03</h2>
 React Docs - lists and keys
 
 What does .map() return?
