@@ -3,8 +3,7 @@
 <a href="#thingstoremember">Things to Remember</a><br>
 <a href="#class01">class 01</a><br>
 <a href="#class02">class 02</a><br>
-<a href="#class03">class 03</a><br>
-<h2 id="class03">Class 03</h2><br><br>
+<a href="#class03">class 03</a><br> <br>
 <h2 id="thingstoremember">Things to Remember</h2>
 <br>
 <h2 id="class01">Class 01</h2>
