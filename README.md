@@ -5,6 +5,9 @@
 <a href="#class02">class 02</a><br>
 <a href="#class03">class 03</a><br> <br>
 <h2 id="thingstoremember">Things to Remember</h2>
+<h3>adding bootstrap</h3>
+import 'bootstrap/dist/css/bootstrap.css';
+import { Card, Button } from 'react-bootstrap';
 <br>
 <h2 id="class01">Class 01</h2>
 Component-Based Architecture
