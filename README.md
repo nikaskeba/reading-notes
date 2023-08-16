@@ -44,3 +44,44 @@ Info from forms: like what you type, which boxes you tick. Whether to show or hi
 
 
 <h2>Class 03</h2>
+React Docs - lists and keys
+
+What does .map() return?
+.map() goes through each item in a list (like a shopping list) and does something with it. It then gives back a new list with the results.
+If I want to show each value in a list on my webpage, how do I do that in React?
+In React, you can use .map() to go through each item in your list and show it on the screen. 
+
+Each item on my webpage list needs a unique ____.
+Key
+Why do we need this key?
+In React, keys help the system know which items are new, changed, or stayed the same. It helps React work faster and avoid mistakes.
+The Spread Operator
+
+What is the spread operator?
+It's like taking all the items out of a box (...). So, if you have a box of toys and you use the spread operator, you're taking all the toys out of that box.
+What can the spread operator do?
+Take items out of a list.
+Copy items from a list.
+Take properties out of an object (like a toy with features).
+Copy properties from an object.
+How can I use the spread operator to put two lists together?
+ codeconst list1 = [1, 2, 3]; const list2 = [4, 5, 6]; const bigList = [...list1, ...list2]; 
+
+How can I add a new item to a list using the spread operator?
+codeconst list = [1, 2, 3]; const newList = [...list, 4];
+
+How can I use the spread operator to put two objects (like two toy boxes with features) together?
+ codeconst box1 = {color: 'red', size: 'big'}; const box2 = {shape: 'square', material: 'wood'}; const bigBox = {...box1, ...box2}; 
+
+Videos
+
+How to Share Functions Between Parts of Your Webpage
+
+What's the first thing to do to share a function between parts of your webpage?
+write the function in the main part and then give it to the smaller part using something called "props".
+What does the increment function likely do?
+Adds number each time you use it.
+How do you give a function from the main part of your webpage to a smaller part?
+You can use "props" to pass it. Think of props like a messenger delivering a message from the main part to the smaller part.
+How does the smaller part of your webpage use a function that was given to it?
+It can use the function through the "props". .
