@@ -1,5 +1,5 @@
 # reading-notes
-Code 301 - Intermediate Software Development
+<h1>Code 301 - Intermediate Software Development</h1><br><br>
 <a href="#thingstoremember">Things to Remember</a><br>
 <a href="#class01">class 01</a><br>
 <a href="#class02">class 02</a><br>
