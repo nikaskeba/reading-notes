@@ -23,7 +23,7 @@ What is “props” short for? Props stand for properties and is a special keywo
 
 How are props used in React? What is the flow of props? - Top-Down/Unidirectional:
 
-##Class 02
+<h2>Class 02</h2>
 What can you put inside props?
 
 Props are like little gifts or packages you pass between components. Inside these packages, you can have:
@@ -43,4 +43,4 @@ State is like a component's personal diary. Here are things you can jot down in 
 Info from forms: like what you type, which boxes you tick. Whether to show or hide something: like a popup or dropdown menu. Data from the internet: like a list of movies or songs. User choices: like which tab they've clicked on or the volume level of a video.
 
 
-Class 03
+<h2>Class 03</h2>
