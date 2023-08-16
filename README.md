@@ -1,6 +1,6 @@
 # reading-notes
 Code 301 - Intermediate Software Development
-##Class 01
+<h2>Class 01</h2>
 Component-Based Architecture
 
 What is a “component”? In React, a component is a reusable piece of the user interface (UI). Think of it as a building block or a widget. Each component is responsible for rendering a part of the UI and can have its own state, logic, and rendering methods. Components can be combined and nested within other components to build more complex UIs. What are the characteristics of a component? Reusability: Components are designed to be reusable. For example, a button component can be used in multiple places across an application.
