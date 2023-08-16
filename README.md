@@ -1,6 +1,8 @@
 # reading-notes
 Code 301 - Intermediate Software Development
-<h2>Class 01</h2>
+<a href="#class01">class01</a>
+<a href="#class02">class02</a>
+<h2 id="class01">Class 01</h2>
 Component-Based Architecture
 
 What is a “component”? In React, a component is a reusable piece of the user interface (UI). Think of it as a building block or a widget. Each component is responsible for rendering a part of the UI and can have its own state, logic, and rendering methods. Components can be combined and nested within other components to build more complex UIs. What are the characteristics of a component? Reusability: Components are designed to be reusable. For example, a button component can be used in multiple places across an application.
@@ -23,7 +25,7 @@ What is “props” short for? Props stand for properties and is a special keywo
 
 How are props used in React? What is the flow of props? - Top-Down/Unidirectional:
 
-<h2>Class 02</h2>
+<h2 id="class02">Class 02</h2>
 What can you put inside props?
 
 Props are like little gifts or packages you pass between components. Inside these packages, you can have:
