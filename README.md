@@ -3,7 +3,9 @@
 <a href="#thingstoremember">Things to Remember</a><br>
 <a href="#class01">class 01</a><br>
 <a href="#class02">class 02</a><br>
-<a href="#class03">class 03</a><br> <br>
+<a href="#class03">class 03</a><br> 
+<a href="#class03">class 04</a><br>
+<br>
 <h2 id="thingstoremember">Things to Remember</h2>
 <h3>adding bootstrap</h3>
 import 'bootstrap/dist/css/bootstrap.css';
@@ -94,3 +96,17 @@ How do you give a function from the main part of your webpage to a smaller part?
 You can use "props" to pass it. Think of props like a messenger delivering a message from the main part to the smaller part.
 How does the smaller part of your webpage use a function that was given to it?
 It can use the function through the "props". .
+<h2 id="class04">Class 04</h2>
+* 		What is a ‘Controlled Component’?
+    * A "Controlled Component" in React is an input element (like a text box or radio button) where the value of the input is controlled by the state of the component. In other words, the value of the input matches the value stored in the component's state, and any changes to the input update the state (and vice versa).
+* 		Should we wait to store the users' responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.
+        * In a controlled component, you would update the state with the user's responses as soon as they enter them. This approach offers a few benefits:
+        * Real-time Validation: You can validate the input in real-time (e.g., check if the email format is correct as the user types).
+        * Consistent Data: The state always represents the current input value, making it easier to manage.
+        * Dynamic Feedback: Provide dynamic feedback to users as they fill out the form such as a popup hint		How do we target what the user is entering if we have an event handler on an input field?
+    * When you have an event handler (like onChange) on an input field, the event object passed to the handler contains the user's input. You can access it with event.target.value. Here's an example:javascript  Copy codehandleInputChange = (event) => { const userInput = event.target.value; // Now you can use 'userInput' to update the state or perform other actions. }   
+The Conditional (Ternary) Operator
+* 		Why would we use a ternary operator?
+    * The ternary operator is a shorter way to write simple if-else statements. It can make your code more concise when dealing with straightforward conditions, especially for assignments or return statements.
+* 		Rewrite the following statement using a ternary statement:
+* 		Given: javascript  Copy codeif(x === y){ console.log(true); } else { console.log(false); }    Using the ternary operator: javascript  Copy codeconsole.log(x === y ? true : false); 
